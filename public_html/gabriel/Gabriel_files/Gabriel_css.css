@@ -1,0 +1,42 @@
+.bold {
+    font-weight: bold;
+}
+.yellow {
+    background-color: rgb(251, 207, 40);
+
+}
+.blue {
+    background-color: rgb(164, 199,247);
+}
+
+.mainBackground {
+    background-color: rgb(230, 232,231);
+}
+.tabs {
+
+
+}
+input[ type="submit"] {
+    width: 173px;
+    height:42px;
+}
+input[type="reset"]{
+    width: 173px;
+    height:42px; 
+}
+.green {
+    background-color: rgb(118,191,48);
+    color: white;
+}
+a:active{
+    color: red;
+    text-decoration: underline;
+}
+a:hover{
+    color: red;
+    text-decoration: underline;
+}
+a:link{
+    color: rgb(160,125,0);
+    text-decoration: none;
+}
