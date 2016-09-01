@@ -1,4 +1,6 @@
 
+$(document).ready(function(){
+   $("#getSolution").click(function(){
 var a = document.getElementById("coefficientA").value; 
 var b = document.getElementById("coefficientB").value;
 var c = document.getElementById("coefficientC").value;
@@ -47,3 +49,5 @@ function isGreaterThan0(x, epsilon) {
 function isNumberEqual0(x, epsilon) {
     return (Math.abs(x) <= epsilon);
 }
+});
+});

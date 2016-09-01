@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Телефонная Книга</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="phonebook.css">
+
+    </head>
+    <body>
+        <div>
+            <form>
+
+                <table>
+                    <tr>
+                        <th>№</th>
+                        <th>Фамилия</th>
+                        <th>Имя</th>
+                        <th>Номер телефона</th>
+                        <th></th>
+                    </tr>
+
+                    <tr>
+                        <td></td>
+                        <td ><input class="newContact" type="text" name="surname"/></td>
+                        <td><input class="newContact" type="text" name="name"/></td>
+                        <td><input class="newContact" type="text" name="phone"/></td>
+                        <td><input type="button" id="addString" value="Добавить"/></td>
+                    </tr>
+
+                    <tr class="phoneBook">
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="checkbox"/></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+
+        <script type="text/javascript" src="jquery-3.1.0.js"></script>
+        <script type="text/javascript" src="phonebook.js"/></script>
+</body>
+</html>
