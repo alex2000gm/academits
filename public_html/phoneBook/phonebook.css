@@ -1,7 +1,27 @@
+
+.inputForm {
+    padding: 10px;
+    height: 100px;
+    width: 400px;
+    margin-bottom: 10px;
+    align-content: flex-end;
+}
+label {
+    align-content: stretch;
+}
+
 table td{
     border-collapse: collapse;
     border-color: black;
     border: 1px solid;
-    padding: 4px;
+    padding: 3px;
+
 }
 
+img {
+    height: 30px;
+}
+
+span {
+    align-content:center;
+}

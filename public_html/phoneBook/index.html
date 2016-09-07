@@ -9,42 +9,43 @@ and open the template in the editor.
         <title>Телефонная Книга</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="phonebook_files/reset_css.css">
         <link rel="stylesheet" type="text/css" href="phonebook.css">
 
     </head>
     <body>
         <div>
-            <form>
+            <form class="inputForm">
 
-                <table>
-                    <tr>
-                        <th>№</th>
-                        <th>Фамилия</th>
-                        <th>Имя</th>
-                        <th>Номер телефона</th>
-                        <th></th>
-                    </tr>
-
-                    <tr>
-                        <td></td>
-                        <td ><input class="newContact" type="text" name="surname"/></td>
-                        <td><input class="newContact" type="text" name="name"/></td>
-                        <td><input class="newContact" type="text" name="phone"/></td>
-                        <td><input type="button" id="addString" value="Добавить"/></td>
-                    </tr>
-
-                    <tr class="phoneBook">
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td><input type="checkbox"/></td>
-                    </tr>
-                </table>
+                <label><span>Фамилия</span><input class="newContact" type="text" id="surname"/></label>
+                <br>
+                <label><span>Имя    </span><input class="newContact" type="text" id="name"/></label>
+                <br>
+                <label><span>Телефон</span><input class="newContact" type="text" id="phone"/></label>
+                <br>
+                <input type="button" id="addString" value="добавить"/>
+                <!--<button id="addString"><img alt="Добавить" src="phonebook_files/add-button.jpg"></button> -->
             </form>
+            <br>
+        </div>
+        <div>
+            <table>
+                <tr>
+                    <th>№</th>
+                    <th>Фамилия</th>
+                    <th>Имя</th>
+                    <th>Номер телефона</th>
+                    <th></th>
+                </tr>
+
+                <tbody class="phoneBook">
+
+                </tbody>
+            </table>
+
         </div>
 
         <script type="text/javascript" src="jquery-3.1.0.js"></script>
-        <script type="text/javascript" src="phonebook.js"/></script>
-</body>
+        <script type="text/javascript" src="phonebook.js"></script>
+    </body>
 </html>

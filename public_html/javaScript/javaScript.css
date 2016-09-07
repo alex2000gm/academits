@@ -1,0 +1,12 @@
+form {
+    padding:15px;
+}
+input {
+    margin: 10px;
+}
+textArea {
+    width: 400px;
+    height: 130px;
+    border-radius: 8px;
+    margin-top: 14px;
+}

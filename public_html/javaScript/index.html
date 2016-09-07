@@ -4,16 +4,19 @@
         <title>TODO supply a title</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
+        <link rel="stylesheet" type="text/css" href="javaScript.css">
     <body>
         <div>
             <form name="coefficients">
-                <input type="text" name="coefficientA" id="coefficientA" value="4"><br>
-                <input type="text" name="coefficientB" id="coefficientB" value="3"><br>
-                <input type = "text" name="coefficientC" id="coefficientC" value="6"><br>
+                <input type="text" name="coefficientA" id="coefficientA" value="коэфф a"><br>
+                <input type="text" name="coefficientB" id="coefficientB" value="коэфф b"><br>
+                <input type = "text" name="coefficientC" id="coefficientC" value=" свободный член c"><br>
                 <input type="button" value="Решить уравнение" id="getSolution">
+                
             </form>
+            
         </div>
+        <textarea id="solutionField"></textarea>
         <script type="text/javascript" src="jquery-3.1.0.js"></script>
         <script src="training.js"></script>
         
